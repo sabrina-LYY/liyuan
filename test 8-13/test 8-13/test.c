@@ -37,13 +37,13 @@
 //{
 //	int i = 1;
 //	
-//	double sum = 0;                //改正：sum=0.0,再定义变量flag
-//	while (i <= 100)               //for(i=0;i<=100;i++)
-//	{                              //{
-//		if (i % 2 == 0)             //  sum=flag*1.0/2;
-//			sum -= (1.0 / i);       //   flag=-flag;       
-//		else                        //}   
-//			sum += (1.0 / i);       //printf("%lf",sum);
+//	double sum = 0;
+//	while (i <= 100)
+//	{
+//		if (i % 2 == 0)
+//			sum -= (1.0 / i);
+//		else
+//			sum += (1.0 / i);
 //		i++;
 //
 //	printf("%f\n", sum);
@@ -178,6 +178,9 @@
 //
 //	return 0;
 //}
+
+
+//猜数字游戏
 //#include<time.h>
 //#include<stdlib.h>
 //
@@ -295,19 +298,19 @@
 //4.编写一个程序，可以一直接收键盘字符，如果是小写字符就输出对应的大写字符，
 //如果接收的是大写字符，就输出对应的小写字符，如果是数字不输出。
 
-int main()
-{
-	char cha = 0;
-	scanf("%c", &cha);
-	if (cha >= 97 && cha <= 122)
-	{
-		cha -= 32;
-		printf("%c", cha);
-	}
-	else if (cha >= 65 && cha <= 90)
-	{
-		cha += 32;
-		printf("%c", cha);
-	}
-	return 0;
-}
+//int main()
+//{
+//	char cha = 0;
+//	scanf("%c", &cha);
+//	if (cha >= 97 && cha <= 122)
+//	{
+//		cha -= 32;
+//		printf("%c", cha);
+//	}
+//	else if (cha >= 65 && cha <= 90)
+//	{
+//		cha += 32;
+//		printf("%c", cha);
+//	}
+//	return 0;
+//}
