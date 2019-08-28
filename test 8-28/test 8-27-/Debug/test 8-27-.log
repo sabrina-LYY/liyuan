@@ -1,0 +1,11 @@
+﻿生成启动时间为 2019/8/28 22:07:59。
+     1>项目“F:\classcode\LYY\test 8-28\test 8-27-\test 8-27-.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         F:\visio studio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\classcode\LYY\test 8-28\Debug\test 8-27-.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\classcode\LYY\test 8-28\Debug\test 8-27-.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\classcode\LYY\test 8-28\Debug\test 8-27-.lib" /MACHINE:X86 Debug\contact.obj
+         Debug\test.obj
+         test 8-27-.vcxproj -> F:\classcode\LYY\test 8-28\Debug\test 8-27-.exe
+     1>已完成生成项目“F:\classcode\LYY\test 8-28\test 8-27-\test 8-27-.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.50
