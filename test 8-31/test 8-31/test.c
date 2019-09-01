@@ -82,8 +82,8 @@
 //	printf("%d\n", len);
 //	return 0;
 //}
-
-
+//
+//
 //(2)
 //int  my_strlen(char *str)
 //{
@@ -140,3 +140,41 @@
 //	return 0;
 //}
 
+//3. 写一个递归函数DigitSum(n)，输入一个非负整数，返回组成它的数字之和， 例如，调用DigitSum(1729)，则应该返回1 + 7 + 2 + 9，它的和是19
+//#include<stdlib.h>
+//int  DigitSum(int num)
+//{
+//	
+//	if (num < 10)
+//	{
+//		return num;
+//	}
+//	return  num % 10 + DigitSum(num / 10);
+//}
+//int main()
+//{
+//	int n=0;
+//	scanf("%d", &n);
+//	printf("%d\n", DigitSum(n));
+//	return 0;
+//}
+
+//4. 编写一个函数 reverse_string(char * string)（递归实现） 实现：将参数字符串中的字符反向排列。要求：不能使用C函数库中的字符串操作函数。
+void reverse_string(char * str)
+{
+	if (*str == 0)
+	{
+		return 0;
+	}
+	reverse_string(str+1);
+	printf("%c ", *(str));
+}
+
+
+int main()
+{
+	char *arr= "abcdef";
+	reverse_string(arr);
+	printf("\n");
+	return 0;
+}
